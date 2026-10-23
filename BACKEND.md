@@ -103,7 +103,7 @@ Kariyer ve beceri verisi `server/data/*.json` dosyalarından gelir. Yeni kariyer
 
 ## API
 
-Tüm endpoint'ler `/api` altındadır. 🔒 işaretliler `Authorization: Bearer <token>` header'ı ister.
+Tüm endpoint'ler `/api` altındadır. 🔒 işaretliler `Authorization: Bearer <token>` header'ı ister. Auth endpoint'lerinin ayrıntılı cevapları ve nasıl denenecekleri için [AUTH.md](AUTH.md)'ye bakın.
 
 | Method | Path | Açıklama |
 | --- | --- | --- |
