@@ -47,7 +47,7 @@ docker-compose.yml      Local PostgreSQL
 
 ## Getting started
 
-Requirements: Node.js 20.6+ and PostgreSQL 14+ (or Docker).
+Requirements: Node.js 20.12+ and PostgreSQL 14+ (or Docker).
 
 ```bash
 npm install                          # installs client and server workspaces
