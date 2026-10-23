@@ -2,14 +2,21 @@ import { Router } from 'express';
 import bcrypt from 'bcryptjs';
 import { query } from '../db.js';
 import { asyncHandler, HttpError } from '../errors.js';
+import { config } from '../config.js';
 import { requireAuth, signToken } from '../middleware/auth.js';
+import { rateLimit } from '../middleware/rateLimit.js';
 
 const router = Router();
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+const authLimiter = rateLimit({
+  ...config.authRateLimit,
+  message: 'Too many attempts, please try again later',
+});
+
 const publicUser = (u) => ({ id: u.id, email: u.email, fullName: u.full_name });
 
-router.post('/register', asyncHandler(async (req, res) => {
+router.post('/register', authLimiter, asyncHandler(async (req, res) => {
   const email = String(req.body.email || '').trim().toLowerCase();
   const password = String(req.body.password || '');
   const fullName = String(req.body.fullName || '').trim();
@@ -29,7 +36,7 @@ router.post('/register', asyncHandler(async (req, res) => {
   res.status(201).json({ token: signToken(rows[0]), user: publicUser(rows[0]) });
 }));
 
-router.post('/login', asyncHandler(async (req, res) => {
+router.post('/login', authLimiter, asyncHandler(async (req, res) => {
   const email = String(req.body.email || '').trim().toLowerCase();
   const password = String(req.body.password || '');
 

@@ -5,6 +5,7 @@ import Login from './pages/Login.jsx';
 import Register from './pages/Register.jsx';
 import Assessment from './pages/Assessment.jsx';
 import Results from './pages/Results.jsx';
+import AuthTest from './pages/AuthTest.jsx';
 
 function RequireAuth({ children }) {
   const { user, loading } = useAuth();
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/auth-test" element={<AuthTest />} />
           <Route path="/assessment" element={<RequireAuth><Assessment /></RequireAuth>} />
           <Route path="/results" element={<RequireAuth><Results /></RequireAuth>} />
           <Route path="*" element={<Navigate to="/" replace />} />

@@ -78,6 +78,8 @@ Sağlık kontrolü: `GET http://localhost:4000/api/health` → `{ "status": "ok"
 | `JWT_SECRET` | `dev-only-secret` | Production'da zorunlu, yoksa sunucu başlamaz |
 | `JWT_EXPIRES_IN` | `7d` | Token süresi |
 | `CLIENT_ORIGIN` | `http://localhost:5173` | CORS için izin verilen origin |
+| `AUTH_RATE_LIMIT_MAX` | `10` | IP başına pencere içinde izin verilen login/register denemesi |
+| `AUTH_RATE_LIMIT_WINDOW_MS` | `900000` | Rate limit penceresi (15 dk) |
 | `AI_PROVIDER` | `none` | `openai`, `gemini` veya `none` (sadece kural tabanlı) |
 | `OPENAI_API_KEY` / `OPENAI_MODEL` | — / `gpt-4o-mini` | OpenAI ayarları |
 | `GEMINI_API_KEY` / `GEMINI_MODEL` | — / `gemini-2.0-flash` | Gemini ayarları |
@@ -133,6 +135,7 @@ Tüm hatalar aynı şekilde döner:
 | 404 | Kayıt veya endpoint bulunamadı |
 | 409 | Bu email ile hesap zaten var |
 | 422 | Değerlendirme eksik; `details` eksik alanları listeler (`major`, `interests`, `skills (at least 3)`) |
+| 429 | Login/register deneme limiti aşıldı; `Retry-After` header'ı kaç saniye bekleneceğini söyler |
 | 500 | Beklenmeyen hata (detay sadece sunucu loguna yazılır) |
 
 ### Öneri yanıtı örneği
@@ -201,6 +204,6 @@ AI kapalıyken sistem tamamen kural tabanlı çalışır; API key olmadan da gel
 ## Bilinen sınırlamalar / yapılabilecekler
 
 - AI cache'i bellekte tutulur; sunucu yeniden başlarsa silinir ve birden fazla instance arasında paylaşılmaz.
-- Login/register için rate limiting yok.
+- Login/register rate limit sayaçları bellekte tutulur (`middleware/rateLimit.js`); sunucu yeniden başlarsa sıfırlanır ve birden fazla instance arasında paylaşılmaz. Proxy arkasında çalıştırılırsa doğru IP için Express'te `trust proxy` ayarlanmalı.
 - Route'lar için entegrasyon testi yok (sadece öneri motoru birim testleri var).
 - Veritabanı migration aracı yok; şema değişiklikleri `schema.sql` üzerinden `CREATE TABLE IF NOT EXISTS` ile yapılıyor, mevcut tabloya kolon eklemek elle `ALTER TABLE` gerektirir.

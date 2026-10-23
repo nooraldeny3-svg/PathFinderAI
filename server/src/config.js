@@ -12,6 +12,11 @@ export const config = {
   jwtSecret: env.JWT_SECRET || 'dev-only-secret',
   jwtExpiresIn: env.JWT_EXPIRES_IN || '7d',
   clientOrigin: env.CLIENT_ORIGIN || 'http://localhost:5173',
+  // Applies to /auth/login and /auth/register, per IP
+  authRateLimit: {
+    windowMs: Number(env.AUTH_RATE_LIMIT_WINDOW_MS) || 15 * 60 * 1000,
+    max: Number(env.AUTH_RATE_LIMIT_MAX) || 10,
+  },
   ai: {
     provider: (env.AI_PROVIDER || 'none').toLowerCase(),
     timeoutMs: Number(env.AI_TIMEOUT_MS) || 15000,
