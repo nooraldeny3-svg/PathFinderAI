@@ -1,0 +1,137 @@
+[
+  {
+    "id": 16,
+    "category": "WorkStyle",
+    "question": "What type of work environment do you prefer?",
+    "options": [
+      {
+        "text": "Working independently on technical tasks.",
+        "careerTags": ["software_engineer", "cloud_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Collaborating with teams to achieve goals.",
+        "careerTags": ["project_manager", "business_analyst"],
+        "weight": 5
+      },
+      {
+        "text": "Analysing data and generating insights.",
+        "careerTags": ["data_analyst", "data_scientist"],
+        "weight": 5
+      },
+      {
+        "text": "Creating engaging experiences for users.",
+        "careerTags": ["uiux_designer", "digital_marketer"],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "WorkStyle",
+    "question": "How do you prefer to complete tasks?",
+    "options": [
+      {
+        "text": "Following a structured plan.",
+        "careerTags": ["qa_engineer", "project_manager"],
+        "weight": 5
+      },
+      {
+        "text": "Exploring different approaches and experimenting.",
+        "careerTags": ["data_scientist", "uiux_designer"],
+        "weight": 5
+      },
+      {
+        "text": "Solving technical challenges step by step.",
+        "careerTags": ["software_engineer", "cloud_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Understanding requirements and improving processes.",
+        "careerTags": ["business_analyst"],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "WorkStyle",
+    "question": "What pace of work suits you best?",
+    "options": [
+      {
+        "text": "Fast-paced and constantly changing.",
+        "careerTags": ["digital_marketer", "project_manager"],
+        "weight": 5
+      },
+      {
+        "text": "Steady and methodical.",
+        "careerTags": ["qa_engineer", "cybersecurity_analyst"],
+        "weight": 5
+      },
+      {
+        "text": "Research-focused with time for deep thinking.",
+        "careerTags": ["data_scientist"],
+        "weight": 5
+      },
+      {
+        "text": "Technical development with clear objectives.",
+        "careerTags": ["software_engineer", "cloud_engineer"],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "WorkStyle",
+    "question": "Which task would you enjoy most during a workday?",
+    "options": [
+      {
+        "text": "Writing and improving code.",
+        "careerTags": ["software_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Investigating security risks and vulnerabilities.",
+        "careerTags": ["cybersecurity_analyst"],
+        "weight": 5
+      },
+      {
+        "text": "Discovering patterns in large datasets.",
+        "careerTags": ["data_analyst", "data_scientist"],
+        "weight": 5
+      },
+      {
+        "text": "Managing meetings and coordinating teams.",
+        "careerTags": ["project_manager"],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "WorkStyle",
+    "question": "Which statement best describes your ideal job?",
+    "options": [
+      {
+        "text": "Develop innovative technologies and systems.",
+        "careerTags": ["software_engineer", "cloud_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Use data to support business decisions.",
+        "careerTags": ["data_analyst", "business_analyst"],
+        "weight": 5
+      },
+      {
+        "text": "Lead teams and deliver successful projects.",
+        "careerTags": ["project_manager"],
+        "weight": 5
+      },
+      {
+        "text": "Design products that users love.",
+        "careerTags": ["uiux_designer"],
+        "weight": 5
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 6,
+    "category": "Skills",
+    "question": "Which skill are you strongest at?",
+    "options": [
+      {
+        "text": "Programming",
+        "careerTags": ["software_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Statistical Analysis",
+        "careerTags": ["data_analyst", "data_scientist"],
+        "weight": 5
+      },
+      {
+        "text": "Visual Design",
+        "careerTags": ["uiux_designer"],
+        "weight": 5
+      },
+      {
+        "text": "Leadership",
+        "careerTags": ["project_manager"],
+        "weight": 5
+      }
+    ]
+  }
+]

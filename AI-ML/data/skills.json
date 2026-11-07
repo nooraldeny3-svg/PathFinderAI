@@ -1,0 +1,234 @@
+
+[
+  {
+    "id": "programming",
+    "name": "Programming",
+    "category": "Technical",
+    "description": "Writing and maintaining computer programs using programming languages.",
+    "relatedCareerIds": ["software_engineer", "qa_engineer", "data_scientist"]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Technical",
+    "description": "Using Python for software development, automation, data analysis, and machine learning.",
+    "relatedCareerIds": ["software_engineer", "data_analyst", "data_scientist", "qa_engineer"]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "Technical",
+    "description": "Developing applications using the Java programming language.",
+    "relatedCareerIds": ["software_engineer"]
+  },
+  {
+    "id": "algorithms",
+    "name": "Algorithms",
+    "category": "Technical",
+    "description": "Designing and understanding efficient computational procedures.",
+    "relatedCareerIds": ["software_engineer", "data_scientist"]
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "Technical",
+    "description": "Querying, managing, and analyzing relational databases.",
+    "relatedCareerIds": ["data_analyst", "data_scientist", "business_analyst"]
+  },
+  {
+    "id": "statistics",
+    "name": "Statistics",
+    "category": "Analytical",
+    "description": "Applying statistical methods to interpret data and identify patterns.",
+    "relatedCareerIds": ["data_analyst", "data_scientist"]
+  },
+  {
+    "id": "machine_learning",
+    "name": "Machine Learning",
+    "category": "Technical",
+    "description": "Developing predictive models and systems that learn patterns from data.",
+    "relatedCareerIds": ["data_scientist"]
+  },
+  {
+    "id": "data_analysis",
+    "name": "Data Analysis",
+    "category": "Analytical",
+    "description": "Collecting, cleaning, exploring, and interpreting data.",
+    "relatedCareerIds": ["data_analyst", "data_scientist", "business_analyst"]
+  },
+  {
+    "id": "data_visualization",
+    "name": "Data Visualization",
+    "category": "Analytical",
+    "description": "Presenting information through charts, graphs, and dashboards.",
+    "relatedCareerIds": ["data_analyst", "data_scientist", "business_analyst"]
+  },
+  {
+    "id": "excel",
+    "name": "Excel",
+    "category": "Technical",
+    "description": "Organizing, calculating, and analyzing information using spreadsheets.",
+    "relatedCareerIds": ["data_analyst", "business_analyst"]
+  },
+  {
+    "id": "problem_solving",
+    "name": "Problem Solving",
+    "category": "Professional",
+    "description": "Identifying problems and developing practical solutions.",
+    "relatedCareerIds": ["software_engineer", "data_analyst", "cybersecurity_analyst", "qa_engineer"]
+  },
+  {
+    "id": "networking",
+    "name": "Networking",
+    "category": "Technical",
+    "description": "Understanding computer networks, protocols, and network infrastructure.",
+    "relatedCareerIds": ["cybersecurity_analyst", "cloud_engineer"]
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "category": "Technical",
+    "description": "Protecting digital systems, networks, and information against security threats.",
+    "relatedCareerIds": ["cybersecurity_analyst"]
+  },
+  {
+    "id": "linux",
+    "name": "Linux",
+    "category": "Technical",
+    "description": "Working with Linux operating systems and command-line tools.",
+    "relatedCareerIds": ["cybersecurity_analyst", "cloud_engineer"]
+  },
+  {
+    "id": "risk_analysis",
+    "name": "Risk Analysis",
+    "category": "Analytical",
+    "description": "Identifying, evaluating, and managing potential risks.",
+    "relatedCareerIds": ["cybersecurity_analyst", "project_manager"]
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "Design",
+    "description": "Creating interface designs, prototypes, and collaborative design systems.",
+    "relatedCareerIds": ["uiux_designer"]
+  },
+  {
+    "id": "ui_design",
+    "name": "UI Design",
+    "category": "Design",
+    "description": "Designing the visual appearance and interactive elements of digital products.",
+    "relatedCareerIds": ["uiux_designer"]
+  },
+  {
+    "id": "ux_research",
+    "name": "UX Research",
+    "category": "Design",
+    "description": "Researching user needs and evaluating user experiences.",
+    "relatedCareerIds": ["uiux_designer"]
+  },
+  {
+    "id": "creativity",
+    "name": "Creativity",
+    "category": "Professional",
+    "description": "Developing original ideas and creative solutions.",
+    "relatedCareerIds": ["uiux_designer", "digital_marketer"]
+  },
+  {
+    "id": "communication",
+    "name": "Communication",
+    "category": "Professional",
+    "description": "Expressing ideas clearly and collaborating effectively with others.",
+    "relatedCareerIds": ["project_manager", "business_analyst", "digital_marketer", "uiux_designer"]
+  },
+  {
+    "id": "leadership",
+    "name": "Leadership",
+    "category": "Professional",
+    "description": "Guiding teams, making decisions, and coordinating people toward shared goals.",
+    "relatedCareerIds": ["project_manager"]
+  },
+  {
+    "id": "planning",
+    "name": "Planning",
+    "category": "Professional",
+    "description": "Setting objectives, organizing activities, and managing schedules.",
+    "relatedCareerIds": ["project_manager"]
+  },
+  {
+    "id": "organization",
+    "name": "Organization",
+    "category": "Professional",
+    "description": "Managing tasks, information, and resources systematically.",
+    "relatedCareerIds": ["project_manager", "business_analyst"]
+  },
+  {
+    "id": "business_analysis",
+    "name": "Business Analysis",
+    "category": "Analytical",
+    "description": "Analyzing business needs and identifying opportunities for improvement.",
+    "relatedCareerIds": ["business_analyst"]
+  },
+  {
+    "id": "documentation",
+    "name": "Documentation",
+    "category": "Professional",
+    "description": "Creating clear technical and business documentation.",
+    "relatedCareerIds": ["business_analyst", "software_engineer"]
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "Technical",
+    "description": "Using Amazon Web Services to deploy and manage cloud infrastructure.",
+    "relatedCareerIds": ["cloud_engineer"]
+  },
+  {
+    "id": "cloud_computing",
+    "name": "Cloud Computing",
+    "category": "Technical",
+    "description": "Building and managing computing services delivered through cloud platforms.",
+    "relatedCareerIds": ["cloud_engineer"]
+  },
+  {
+    "id": "automation",
+    "name": "Automation",
+    "category": "Technical",
+    "description": "Automating repetitive processes, workflows, and software tests.",
+    "relatedCareerIds": ["cloud_engineer", "qa_engineer"]
+  },
+  {
+    "id": "testing",
+    "name": "Testing",
+    "category": "Technical",
+    "description": "Evaluating software to identify defects and verify expected behavior.",
+    "relatedCareerIds": ["qa_engineer"]
+  },
+  {
+    "id": "attention_to_detail",
+    "name": "Attention to Detail",
+    "category": "Professional",
+    "description": "Carefully reviewing work to identify errors and inconsistencies.",
+    "relatedCareerIds": ["qa_engineer", "data_analyst"]
+  },
+  {
+    "id": "seo",
+    "name": "SEO",
+    "category": "Marketing",
+    "description": "Improving website visibility in organic search engine results.",
+    "relatedCareerIds": ["digital_marketer"]
+  },
+  {
+    "id": "content_creation",
+    "name": "Content Creation",
+    "category": "Marketing",
+    "description": "Developing useful and engaging digital content for target audiences.",
+    "relatedCareerIds": ["digital_marketer"]
+  },
+  {
+    "id": "analytics",
+    "name": "Marketing Analytics",
+    "category": "Marketing",
+    "description": "Measuring and interpreting digital marketing performance.",
+    "relatedCareerIds": ["digital_marketer"]
+  }
+]

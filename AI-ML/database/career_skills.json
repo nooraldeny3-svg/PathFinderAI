@@ -1,0 +1,108 @@
+[
+  {
+    "careerId": "software_engineer",
+    "skillIds": [
+      "programming",
+      "python",
+      "java",
+      "algorithms",
+      "problem_solving",
+      "documentation"
+    ]
+  },
+  {
+    "careerId": "data_analyst",
+    "skillIds": [
+      "sql",
+      "statistics",
+      "data_analysis",
+      "data_visualization",
+      "excel",
+      "attention_to_detail"
+    ]
+  },
+  {
+    "careerId": "data_scientist",
+    "skillIds": [
+      "python",
+      "algorithms",
+      "sql",
+      "statistics",
+      "machine_learning",
+      "data_analysis",
+      "data_visualization"
+    ]
+  },
+  {
+    "careerId": "cybersecurity_analyst",
+    "skillIds": [
+      "networking",
+      "cybersecurity",
+      "linux",
+      "risk_analysis",
+      "problem_solving"
+    ]
+  },
+  {
+    "careerId": "uiux_designer",
+    "skillIds": [
+      "figma",
+      "ui_design",
+      "ux_research",
+      "creativity",
+      "communication"
+    ]
+  },
+  {
+    "careerId": "project_manager",
+    "skillIds": [
+      "leadership",
+      "communication",
+      "planning",
+      "organization",
+      "risk_analysis",
+      "problem_solving"
+    ]
+  },
+  {
+    "careerId": "business_analyst",
+    "skillIds": [
+      "business_analysis",
+      "communication",
+      "documentation",
+      "data_analysis",
+      "problem_solving",
+      "organization"
+    ]
+  },
+  {
+    "careerId": "cloud_engineer",
+    "skillIds": [
+      "aws",
+      "networking",
+      "linux",
+      "cloud_computing",
+      "automation"
+    ]
+  },
+  {
+    "careerId": "qa_engineer",
+    "skillIds": [
+      "testing",
+      "automation",
+      "attention_to_detail",
+      "programming",
+      "problem_solving"
+    ]
+  },
+  {
+    "careerId": "digital_marketer",
+    "skillIds": [
+      "seo",
+      "content_creation",
+      "analytics",
+      "communication",
+      "creativity"
+    ]
+  }
+]

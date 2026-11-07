@@ -1,0 +1,351 @@
+[
+  {
+    "id": "software_engineer",
+    "title": "Software Engineer",
+    "category": "Technology",
+    "description": "Designs, develops, tests, and maintains software applications and systems.",
+    "requiredSkills": [
+      "Programming",
+      "Problem Solving",
+      "Algorithms",
+      "Java",
+      "Python"
+    ],
+    "relatedMajors": [
+      "Software Engineering",
+      "Computer Engineering",
+      "Computer Science",
+      "Information Technology"
+    ],
+    "interests": [
+      "programming",
+      "technology",
+      "software development",
+      "problem solving"
+    ],
+    "personalityTraits": [
+      "analytical",
+      "logical",
+      "detail-oriented"
+    ],
+    "workStyles": [
+      "independent",
+      "collaborative",
+      "technical"
+    ]
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "category": "Data",
+    "description": "Collects, processes, and analyzes data to identify patterns and support business decisions.",
+    "requiredSkills": [
+      "Statistics",
+      "Excel",
+      "SQL",
+      "Data Visualization",
+      "Analytical Thinking"
+    ],
+    "relatedMajors": [
+      "Computer Science",
+      "Statistics",
+      "Mathematics",
+      "Economics",
+      "Business Administration"
+    ],
+    "interests": [
+      "data",
+      "statistics",
+      "research",
+      "business"
+    ],
+    "personalityTraits": [
+      "analytical",
+      "logical",
+      "detail-oriented"
+    ],
+    "workStyles": [
+      "independent",
+      "collaborative",
+      "research"
+    ]
+  },
+  {
+    "id": "data_scientist",
+    "title": "Data Scientist",
+    "category": "Data",
+    "description": "Uses statistics, programming, and machine learning to extract insights and build predictive models.",
+    "requiredSkills": [
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "SQL",
+      "Data Analysis"
+    ],
+    "relatedMajors": [
+      "Computer Science",
+      "Statistics",
+      "Mathematics",
+      "Computer Engineering"
+    ],
+    "interests": [
+      "data",
+      "artificial intelligence",
+      "research",
+      "mathematics"
+    ],
+    "personalityTraits": [
+      "analytical",
+      "logical",
+      "curious"
+    ],
+    "workStyles": [
+      "independent",
+      "research",
+      "technical"
+    ]
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity Analyst",
+    "category": "Security",
+    "description": "Protects computer systems, networks, and information from cyber threats and security vulnerabilities.",
+    "requiredSkills": [
+      "Networking",
+      "Cybersecurity",
+      "Risk Analysis",
+      "Linux",
+      "Problem Solving"
+    ],
+    "relatedMajors": [
+      "Computer Science",
+      "Computer Engineering",
+      "Information Technology"
+    ],
+    "interests": [
+      "security",
+      "technology",
+      "networking",
+      "investigation"
+    ],
+    "personalityTraits": [
+      "analytical",
+      "detail-oriented",
+      "logical"
+    ],
+    "workStyles": [
+      "independent",
+      "technical",
+      "problem-solving"
+    ]
+  },
+  {
+    "id": "uiux_designer",
+    "title": "UI/UX Designer",
+    "category": "Design",
+    "description": "Designs accessible, intuitive, and visually engaging digital products based on user needs.",
+    "requiredSkills": [
+      "Figma",
+      "UI Design",
+      "UX Research",
+      "Creativity",
+      "Communication"
+    ],
+    "relatedMajors": [
+      "Graphic Design",
+      "Computer Science",
+      "Software Engineering"
+    ],
+    "interests": [
+      "design",
+      "creativity",
+      "user experience",
+      "technology"
+    ],
+    "personalityTraits": [
+      "creative",
+      "empathetic",
+      "detail-oriented"
+    ],
+    "workStyles": [
+      "collaborative",
+      "creative",
+      "independent"
+    ]
+  },
+  {
+    "id": "project_manager",
+    "title": "Project Manager",
+    "category": "Management",
+    "description": "Plans, coordinates, and manages projects while balancing schedules, resources, risks, and team objectives.",
+    "requiredSkills": [
+      "Leadership",
+      "Communication",
+      "Planning",
+      "Organization",
+      "Problem Solving"
+    ],
+    "relatedMajors": [
+      "Business Administration",
+      "Computer Science",
+      "Information Technology",
+      "Economics"
+    ],
+    "interests": [
+      "leadership",
+      "management",
+      "organization",
+      "teamwork"
+    ],
+    "personalityTraits": [
+      "organized",
+      "confident",
+      "communicative"
+    ],
+    "workStyles": [
+      "collaborative",
+      "leadership",
+      "organized"
+    ]
+  },
+  {
+    "id": "business_analyst",
+    "title": "Business Analyst",
+    "category": "Business",
+    "description": "Analyzes business processes and requirements to recommend improvements and connect business needs with technical solutions.",
+    "requiredSkills": [
+      "Business Analysis",
+      "Communication",
+      "Documentation",
+      "Data Analysis",
+      "Problem Solving"
+    ],
+    "relatedMajors": [
+      "Business Administration",
+      "Economics",
+      "Computer Science",
+      "Information Technology"
+    ],
+    "interests": [
+      "business",
+      "research",
+      "data",
+      "problem solving"
+    ],
+    "personalityTraits": [
+      "analytical",
+      "communicative",
+      "organized"
+    ],
+    "workStyles": [
+      "collaborative",
+      "research",
+      "independent"
+    ]
+  },
+  {
+    "id": "cloud_engineer",
+    "title": "Cloud Engineer",
+    "category": "Cloud",
+    "description": "Builds, deploys, and maintains cloud infrastructure, services, and scalable computing environments.",
+    "requiredSkills": [
+      "AWS",
+      "Networking",
+      "Linux",
+      "Cloud Computing",
+      "Automation"
+    ],
+    "relatedMajors": [
+      "Computer Science",
+      "Computer Engineering",
+      "Software Engineering",
+      "Information Technology"
+    ],
+    "interests": [
+      "cloud computing",
+      "technology",
+      "networking",
+      "infrastructure"
+    ],
+    "personalityTraits": [
+      "analytical",
+      "logical",
+      "detail-oriented"
+    ],
+    "workStyles": [
+      "technical",
+      "independent",
+      "collaborative"
+    ]
+  },
+  {
+    "id": "qa_engineer",
+    "title": "QA Engineer",
+    "category": "Testing",
+    "description": "Tests software applications, identifies defects, and improves software reliability through manual and automated testing.",
+    "requiredSkills": [
+      "Testing",
+      "Automation",
+      "Attention to Detail",
+      "Programming",
+      "Problem Solving"
+    ],
+    "relatedMajors": [
+      "Software Engineering",
+      "Computer Science",
+      "Computer Engineering",
+      "Information Technology"
+    ],
+    "interests": [
+      "testing",
+      "technology",
+      "quality assurance",
+      "problem solving"
+    ],
+    "personalityTraits": [
+      "detail-oriented",
+      "analytical",
+      "logical"
+    ],
+    "workStyles": [
+      "independent",
+      "collaborative",
+      "technical"
+    ]
+  },
+  {
+    "id": "digital_marketer",
+    "title": "Digital Marketer",
+    "category": "Marketing",
+    "description": "Promotes products and services through digital channels using content, search optimization, analytics, and marketing strategies.",
+    "requiredSkills": [
+      "SEO",
+      "Content Creation",
+      "Analytics",
+      "Communication",
+      "Creativity"
+    ],
+    "relatedMajors": [
+      "Marketing",
+      "Business Administration",
+      "Economics",
+      "Graphic Design"
+    ],
+    "interests": [
+      "marketing",
+      "creativity",
+      "business",
+      "communication"
+    ],
+    "personalityTraits": [
+      "creative",
+      "communicative",
+      "curious"
+    ],
+    "workStyles": [
+      "collaborative",
+      "creative",
+      "independent"
+    ]
+  }
+]

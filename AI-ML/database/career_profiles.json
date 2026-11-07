@@ -1,0 +1,142 @@
+[
+  {
+    "careerId": "software_engineer",
+    "overview": "Designs, develops, tests, and maintains software applications and systems.",
+    "responsibilities": [
+      "Write and maintain code",
+      "Design software solutions",
+      "Debug and test applications",
+      "Collaborate with development teams"
+    ],
+    "requiredSkills": ["Programming", "Problem Solving", "Algorithms", "Java", "Python"],
+    "recommendedMajors": ["Software Engineering", "Computer Engineering", "Computer Science", "Information Technology"],
+    "workEnvironment": ["Technology companies", "Software development teams", "Remote work"],
+    "careerLevel": "Entry to Senior"
+  },
+  {
+    "careerId": "data_analyst",
+    "overview": "Collects, processes, and interprets data to help organizations make informed decisions.",
+    "responsibilities": [
+      "Analyze datasets",
+      "Prepare reports and dashboards",
+      "Identify trends and patterns",
+      "Communicate findings to stakeholders"
+    ],
+    "requiredSkills": ["Statistics", "Excel", "SQL", "Data Visualization", "Analytical Thinking"],
+    "recommendedMajors": ["Computer Science", "Statistics", "Mathematics", "Economics", "Business Administration"],
+    "workEnvironment": ["Business teams", "Research departments", "Data teams"],
+    "careerLevel": "Entry to Senior"
+  },
+  {
+    "careerId": "data_scientist",
+    "overview": "Uses statistics, programming, and machine learning to extract insights and build predictive models from data.",
+    "responsibilities": [
+      "Prepare and analyze datasets",
+      "Build and evaluate machine learning models",
+      "Identify patterns and trends",
+      "Present analytical results"
+    ],
+    "requiredSkills": ["Python", "Machine Learning", "Statistics", "SQL", "Data Analysis"],
+    "recommendedMajors": ["Computer Science", "Statistics", "Mathematics", "Computer Engineering"],
+    "workEnvironment": ["Technology companies", "Research teams", "Data science departments"],
+    "careerLevel": "Entry to Senior"
+  },
+  {
+    "careerId": "cybersecurity_analyst",
+    "overview": "Protects computer systems, networks, and information from security threats and unauthorized access.",
+    "responsibilities": [
+      "Monitor systems for security incidents",
+      "Investigate potential threats",
+      "Identify vulnerabilities",
+      "Support security policies and controls"
+    ],
+    "requiredSkills": ["Networking", "Cybersecurity", "Risk Analysis", "Linux", "Problem Solving"],
+    "recommendedMajors": ["Computer Science", "Computer Engineering", "Information Technology"],
+    "workEnvironment": ["Security operations centers", "IT departments", "Consulting companies"],
+    "careerLevel": "Entry to Senior"
+  },
+  {
+    "careerId": "uiux_designer",
+    "overview": "Designs user interfaces and experiences that make digital products useful, accessible, and easy to use.",
+    "responsibilities": [
+      "Research user needs",
+      "Create wireframes and prototypes",
+      "Design interface layouts",
+      "Evaluate and improve user experiences"
+    ],
+    "requiredSkills": ["Figma", "UI Design", "UX Research", "Creativity", "Communication"],
+    "recommendedMajors": ["Graphic Design", "Computer Science", "Software Engineering"],
+    "workEnvironment": ["Design teams", "Product teams", "Digital agencies"],
+    "careerLevel": "Entry to Senior"
+  },
+  {
+    "careerId": "project_manager",
+    "overview": "Plans and coordinates projects to achieve goals within agreed timelines and resources.",
+    "responsibilities": [
+      "Define project plans",
+      "Coordinate team activities",
+      "Track progress and risks",
+      "Communicate with stakeholders"
+    ],
+    "requiredSkills": ["Leadership", "Communication", "Planning", "Organization", "Problem Solving"],
+    "recommendedMajors": ["Business Administration", "Computer Science", "Information Technology", "Economics"],
+    "workEnvironment": ["Business organizations", "Technology teams", "Project offices"],
+    "careerLevel": "Entry to Senior"
+  },
+  {
+    "careerId": "business_analyst",
+    "overview": "Studies business needs and translates them into requirements, processes, and data-informed recommendations.",
+    "responsibilities": [
+      "Gather business requirements",
+      "Analyze business processes",
+      "Prepare documentation",
+      "Communicate recommendations"
+    ],
+    "requiredSkills": ["Business Analysis", "Communication", "Documentation", "Data Analysis", "Problem Solving"],
+    "recommendedMajors": ["Business Administration", "Economics", "Computer Science", "Information Technology"],
+    "workEnvironment": ["Business teams", "Consulting firms", "Technology companies"],
+    "careerLevel": "Entry to Senior"
+  },
+  {
+    "careerId": "cloud_engineer",
+    "overview": "Builds and maintains cloud infrastructure, services, and deployment environments.",
+    "responsibilities": [
+      "Configure cloud resources",
+      "Maintain cloud infrastructure",
+      "Automate deployment processes",
+      "Monitor system performance"
+    ],
+    "requiredSkills": ["AWS", "Networking", "Linux", "Cloud Computing", "Automation"],
+    "recommendedMajors": ["Computer Science", "Computer Engineering", "Software Engineering", "Information Technology"],
+    "workEnvironment": ["Cloud engineering teams", "IT departments", "Technology companies"],
+    "careerLevel": "Entry to Senior"
+  },
+  {
+    "careerId": "qa_engineer",
+    "overview": "Tests software products to identify defects and improve reliability and quality.",
+    "responsibilities": [
+      "Create and execute test cases",
+      "Report software defects",
+      "Perform manual and automated testing",
+      "Verify software quality"
+    ],
+    "requiredSkills": ["Testing", "Automation", "Attention to Detail", "Programming", "Problem Solving"],
+    "recommendedMajors": ["Software Engineering", "Computer Science", "Computer Engineering", "Information Technology"],
+    "workEnvironment": ["Software development teams", "Quality assurance teams", "Technology companies"],
+    "careerLevel": "Entry to Senior"
+  },
+  {
+    "careerId": "digital_marketer",
+    "overview": "Promotes products and services through digital channels and evaluates campaign performance.",
+    "responsibilities": [
+      "Plan digital marketing campaigns",
+      "Create and manage online content",
+      "Analyze campaign performance",
+      "Improve audience engagement"
+    ],
+    "requiredSkills": ["SEO", "Content Creation", "Analytics", "Communication", "Creativity"],
+    "recommendedMajors": ["Marketing", "Business Administration", "Economics", "Graphic Design"],
+    "workEnvironment": ["Marketing teams", "Digital agencies", "Business organizations"],
+    "careerLevel": "Entry to Senior"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": 21,
+    "category": "CareerGoals",
+    "question": "Where would you like to be professionally in five years?",
+    "options": [
+      {
+        "text": "Building innovative software products.",
+        "careerTags": ["software_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Leading teams and managing projects.",
+        "careerTags": ["project_manager"],
+        "weight": 5
+      },
+      {
+        "text": "Working on advanced AI and data solutions.",
+        "careerTags": ["data_scientist"],
+        "weight": 5
+      },
+      {
+        "text": "Designing exceptional digital experiences.",
+        "careerTags": ["uiux_designer"],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "category": "CareerGoals",
+    "question": "What motivates you most in a career?",
+    "options": [
+      {
+        "text": "Solving complex technical problems.",
+        "careerTags": ["software_engineer", "cloud_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Discovering valuable insights from data.",
+        "careerTags": ["data_analyst", "data_scientist"],
+        "weight": 5
+      },
+      {
+        "text": "Helping organisations improve performance.",
+        "careerTags": ["business_analyst", "project_manager"],
+        "weight": 5
+      },
+      {
+        "text": "Creating engaging products and experiences.",
+        "careerTags": ["uiux_designer", "digital_marketer"],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "category": "CareerGoals",
+    "question": "Which achievement would be most meaningful to you?",
+    "options": [
+      {
+        "text": "Launching a successful technology product.",
+        "careerTags": ["software_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Becoming a recognised data expert.",
+        "careerTags": ["data_scientist", "data_analyst"],
+        "weight": 5
+      },
+      {
+        "text": "Successfully delivering major projects.",
+        "careerTags": ["project_manager"],
+        "weight": 5
+      },
+      {
+        "text": "Creating a highly rated user experience.",
+        "careerTags": ["uiux_designer"],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "CareerGoals",
+    "question": "What type of impact would you like your work to have?",
+    "options": [
+      {
+        "text": "Advancing technology and innovation.",
+        "careerTags": ["software_engineer", "cloud_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Improving business decisions through data.",
+        "careerTags": ["data_analyst", "business_analyst"],
+        "weight": 5
+      },
+      {
+        "text": "Protecting organisations from security threats.",
+        "careerTags": ["cybersecurity_analyst"],
+        "weight": 5
+      },
+      {
+        "text": "Improving how people interact with products.",
+        "careerTags": ["uiux_designer"],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "category": "CareerGoals",
+    "question": "Which career would you choose if all options offered the same salary?",
+    "options": [
+      {
+        "text": "Software Engineer",
+        "careerTags": ["software_engineer"],
+        "weight": 5
+      },
+      {
+        "text": "Data Scientist",
+        "careerTags": ["data_scientist"],
+        "weight": 5
+      },
+      {
+        "text": "Project Manager",
+        "careerTags": ["project_manager"],
+        "weight": 5
+      },
+      {
+        "text": "UI/UX Designer",
+        "careerTags": ["uiux_designer"],
+        "weight": 5
+      }
+    ]
+  }
+]
