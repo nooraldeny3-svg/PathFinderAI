@@ -30,6 +30,8 @@ client (React)  ──REST──▶  server (Express + JWT)  ──▶  PostgreS
 
 ## Project structure
 
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the full system architecture (diagrams, data model, design decisions and risks).
+
 ```
 client/                 React app (assessment, results, auth pages)
 server/
