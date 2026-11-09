@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Powered Career Guidance System</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f3f6fb;
+      color: #1e293b;
+    }
+    header {
+      background: #163b70;
+      color: white;
+      padding: 22px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; }
+    header p { margin: 0; }
+    main {
+      max-width: 850px;
+      margin: 35px auto;
+      padding: 0 18px;
+    }
+    .panel {
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 15px #00000012;
+    }
+    h2 { color: #163b70; }
+    label { display: block; margin: 12px 0; }
+    input[type="text"], select {
+      width: 100%;
+      padding: 11px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      margin-top: 6px;
+    }
+    .option {
+      padding: 12px;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .option:hover { background: #eff6ff; }
+    .option input { margin-right: 10px; }
+    button {
+      background: #163b70;
+      color: white;
+      border: none;
+      padding: 12px 22px;
+      border-radius: 7px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    button:hover { background: #245a9c; }
+    button:disabled { opacity: .5; cursor: not-allowed; }
+    .hidden { display: none; }
+    .progress {
+      background: #e2e8f0;
+      border-radius: 10px;
+      height: 10px;
+      overflow: hidden;
+    }
+    #progressBar {
+      background: #2563eb;
+      width: 0%;
+      height: 100%;
+      transition: width .2s;
+    }
+    .career {
+      padding: 16px;
+      border: 1px solid #dbeafe;
+      border-radius: 8px;
+      margin: 12px 0;
+    }
+    #message { color: #b91c1c; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI-Powered Career Guidance System</h1>
+    <p>Discover career paths based on your interests, skills and goals</p>
+  </header>
+
+  <main>
+    <section id="welcome" class="panel">
+      <h2>Welcome to Your Career Assessment</h2>
+      <p>Complete 20 questions to explore suitable career paths.</p>
+
+      <label>
+        Full Name
+        <input id="studentName" type="text"
+               placeholder="Enter your full name">
+      </label>
+
+      <label>
+        University Major
+        <input id="studentMajor" type="text"
+               placeholder="e.g. Computer Science">
+      </label>
+
+      <button id="startBtn">Start Assessment</button>
+    </section>
+
+    <section id="assessment" class="panel hidden">
+      <p id="counter"></p>
+      <div class="progress">
+        <div id="progressBar"></div>
+      </div>
+
+      <h2 id="questionText"></h2>
+      <div id="options"></div>
+
+      <button id="backBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </section>
+
+    <section id="results" class="panel hidden">
+      <h2>Your Career Recommendations</h2>
+      <p id="studentSummary"></p>
+      <div id="careerResults"></div>
+      <button id="restartBtn">Start Again</button>
+    </section>
+
+    <p id="message" role="alert"></p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

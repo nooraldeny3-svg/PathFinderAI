@@ -1,0 +1,52 @@
+{
+  "software_engineer": {
+    "name": "Software Engineer",
+    "category": "Technology",
+    "description": "Designs, develops and maintains software applications."
+  },
+  "data_analyst": {
+    "name": "Data Analyst",
+    "category": "Data",
+    "description": "Analyses data and generates insights for decision making."
+  },
+  "data_scientist": {
+    "name": "Data Scientist",
+    "category": "Data",
+    "description": "Builds predictive models and extracts value from data."
+  },
+  "cybersecurity_analyst": {
+    "name": "Cybersecurity Analyst",
+    "category": "Security",
+    "description": "Protects systems and networks from cyber threats."
+  },
+  "uiux_designer": {
+    "name": "UI/UX Designer",
+    "category": "Design",
+    "description": "Creates intuitive and engaging user experiences."
+  },
+  "project_manager": {
+    "name": "Project Manager",
+    "category": "Management",
+    "description": "Plans, coordinates and delivers projects successfully."
+  },
+  "business_analyst": {
+    "name": "Business Analyst",
+    "category": "Business",
+    "description": "Bridges business needs and technical solutions."
+  },
+  "cloud_engineer": {
+    "name": "Cloud Engineer",
+    "category": "Cloud",
+    "description": "Develops and manages cloud infrastructure."
+  },
+  "qa_engineer": {
+    "name": "QA Engineer",
+    "category": "Testing",
+    "description": "Ensures software quality through testing."
+  },
+  "digital_marketer": {
+    "name": "Digital Marketer",
+    "category": "Marketing",
+    "description": "Promotes products and services using digital channels."
+  }
+}

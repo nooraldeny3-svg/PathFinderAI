@@ -1,0 +1,152 @@
+[
+  {
+    "id": 9,
+    "category": "Personality",
+    "question": "Which statement best describes you?",
+    "options": [
+      {
+        "text": "I enjoy analysing complex problems and finding logical solutions.",
+        "careerTags": [
+          "data_scientist",
+          "software_engineer",
+          "data_analyst"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "I enjoy creating visually appealing designs and experiences.",
+        "careerTags": [
+          "uiux_designer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "I enjoy organising people and leading projects.",
+        "careerTags": [
+          "project_manager"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "I enjoy understanding business needs and improving processes.",
+        "careerTags": [
+          "business_analyst"
+        ],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Personality",
+    "question": "When facing a difficult problem, what is your usual approach?",
+    "options": [
+      {
+        "text": "Break it into smaller logical steps.",
+        "careerTags": [
+          "software_engineer",
+          "data_scientist"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Research user needs and feedback.",
+        "careerTags": [
+          "uiux_designer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Discuss solutions with the team.",
+        "careerTags": [
+          "project_manager",
+          "business_analyst"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Investigate patterns and trends before deciding.",
+        "careerTags": [
+          "data_analyst"
+        ],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Personality",
+    "question": "How important is attention to detail in your work?",
+    "options": [
+      {
+        "text": "Extremely important. I rarely overlook small details.",
+        "careerTags": [
+          "qa_engineer",
+          "cybersecurity_analyst"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Important when solving technical issues.",
+        "careerTags": [
+          "software_engineer",
+          "cloud_engineer"
+        ],
+        "weight": 4
+      },
+      {
+        "text": "Important when analysing information.",
+        "careerTags": [
+          "data_analyst",
+          "data_scientist"
+        ],
+        "weight": 4
+      },
+      {
+        "text": "Important but balanced with creativity.",
+        "careerTags": [
+          "uiux_designer"
+        ],
+        "weight": 4
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Personality",
+    "question": "Which role do you naturally take in a group project?",
+    "options": [
+      {
+        "text": "Technical problem solver.",
+        "careerTags": [
+          "software_engineer",
+          "cloud_engineer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Team coordinator and planner.",
+        "careerTags": [
+          "project_manager"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Researcher and data interpreter.",
+        "careerTags": [
+          "data_analyst",
+          "data_scientist"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Creative designer and presenter.",
+        "careerTags": [
+          "uiux_designer",
+          "digital_marketer"
+        ],
+        "weight": 5
+      }
+    ]
+  }
+]

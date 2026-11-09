@@ -1,0 +1,18 @@
+AI-POWERED CAREER GUIDANCE SYSTEM
+RANDOM FOREST MODEL EVALUATION
+=============================================
+
+Total dataset records: 100
+Training records: 80
+Testing records: 20
+Number of career classes: 10
+
+Evaluation method:
+Stratified 80/20 train-test split
+Random state: 42
+Random Forest trees: 100
+
+Test Accuracy: 0.9500
+Test Accuracy Percentage: 95.00%
+
+Note: This accuracy measures performance on the held-out dataset split, not real-world career success.

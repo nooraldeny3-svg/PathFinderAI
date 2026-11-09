@@ -1,0 +1,11 @@
+,business_analyst,cloud_engineer,cybersecurity_analyst,data_analyst,data_scientist,digital_marketer,project_manager,qa_engineer,software_engineer,uiux_designer
+business_analyst,2,0,0,0,0,0,0,0,0,0
+cloud_engineer,0,2,0,0,0,0,0,0,0,0
+cybersecurity_analyst,0,0,2,0,0,0,0,0,0,0
+data_analyst,0,0,0,2,0,0,0,0,0,0
+data_scientist,0,0,0,1,1,0,0,0,0,0
+digital_marketer,0,0,0,0,0,2,0,0,0,0
+project_manager,0,0,0,0,0,0,2,0,0,0
+qa_engineer,0,0,0,0,0,0,0,2,0,0
+software_engineer,0,0,0,0,0,0,0,0,2,0
+uiux_designer,0,0,0,0,0,0,0,0,0,2

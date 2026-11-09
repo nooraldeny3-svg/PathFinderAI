@@ -1,0 +1,16 @@
+                       precision    recall  f1-score   support
+
+     business_analyst       1.00      1.00      1.00         2
+       cloud_engineer       1.00      1.00      1.00         2
+cybersecurity_analyst       1.00      1.00      1.00         2
+         data_analyst       0.67      1.00      0.80         2
+       data_scientist       1.00      0.50      0.67         2
+     digital_marketer       1.00      1.00      1.00         2
+      project_manager       1.00      1.00      1.00         2
+          qa_engineer       1.00      1.00      1.00         2
+    software_engineer       1.00      1.00      1.00         2
+        uiux_designer       1.00      1.00      1.00         2
+
+             accuracy                           0.95        20
+            macro avg       0.97      0.95      0.95        20
+         weighted avg       0.97      0.95      0.95        20

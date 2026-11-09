@@ -1,0 +1,25 @@
+{
+  "name": "ai-powered-career-recommendation",
+  "version": "1.0.0",
+  "description": "A hybrid AI and machine learning career recommendation system.",
+  "main": "algorithms/predictCareer.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test",
+    "test:algorithms": "node --test tests/test_algorithms.js"
+  },
+  "keywords": [
+    "artificial-intelligence",
+    "machine-learning",
+    "career-recommendation",
+    "random-forest",
+    "recommendation-system",
+    "javascript",
+    "python"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "computer_science",
+    "name": "Computer Science",
+    "relatedCareerIds": [
+      "software_engineer",
+      "data_analyst",
+      "data_scientist",
+      "cybersecurity_analyst",
+      "business_analyst",
+      "cloud_engineer",
+      "qa_engineer"
+    ]
+  },
+  {
+    "id": "computer_engineering",
+    "name": "Computer Engineering",
+    "relatedCareerIds": [
+      "software_engineer",
+      "data_scientist",
+      "cybersecurity_analyst",
+      "cloud_engineer",
+      "qa_engineer"
+    ]
+  },
+  {
+    "id": "software_engineering",
+    "name": "Software Engineering",
+    "relatedCareerIds": [
+      "software_engineer",
+      "uiux_designer",
+      "cloud_engineer",
+      "qa_engineer"
+    ]
+  },
+  {
+    "id": "information_technology",
+    "name": "Information Technology",
+    "relatedCareerIds": [
+      "software_engineer",
+      "cybersecurity_analyst",
+      "business_analyst",
+      "cloud_engineer",
+      "qa_engineer"
+    ]
+  },
+  {
+    "id": "statistics",
+    "name": "Statistics",
+    "relatedCareerIds": [
+      "data_analyst",
+      "data_scientist"
+    ]
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "relatedCareerIds": [
+      "data_analyst",
+      "data_scientist"
+    ]
+  },
+  {
+    "id": "economics",
+    "name": "Economics",
+    "relatedCareerIds": [
+      "data_analyst",
+      "project_manager",
+      "business_analyst",
+      "digital_marketer"
+    ]
+  },
+  {
+    "id": "business_administration",
+    "name": "Business Administration",
+    "relatedCareerIds": [
+      "data_analyst",
+      "project_manager",
+      "business_analyst",
+      "digital_marketer"
+    ]
+  },
+  {
+    "id": "graphic_design",
+    "name": "Graphic Design",
+    "relatedCareerIds": [
+      "uiux_designer",
+      "digital_marketer"
+    ]
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "relatedCareerIds": [
+      "digital_marketer"
+    ]
+  }
+]

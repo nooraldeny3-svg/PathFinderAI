@@ -1,0 +1,150 @@
+[
+  {
+    "id": 5,
+    "category": "Skills",
+    "question": "Which skill are you strongest at?",
+    "options": [
+      {
+        "text": "Programming",
+        "careerTags": [
+          "software_engineer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Statistical Analysis",
+        "careerTags": [
+          "data_analyst",
+          "data_scientist"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Visual Design",
+        "careerTags": [
+          "uiux_designer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Leadership",
+        "careerTags": [
+          "project_manager"
+        ],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Skills",
+    "question": "Which technical task can you perform most confidently?",
+    "options": [
+      {
+        "text": "Write and debug application code.",
+        "careerTags": [
+          "software_engineer",
+          "qa_engineer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Clean datasets and build charts.",
+        "careerTags": [
+          "data_analyst",
+          "data_scientist"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Create interface prototypes and visual layouts.",
+        "careerTags": [
+          "uiux_designer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Configure and troubleshoot computer networks.",
+        "careerTags": [
+          "cloud_engineer",
+          "cybersecurity_analyst"
+        ],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Skills",
+    "question": "Which tool or method have you practiced most?",
+    "options": [
+      {
+        "text": "Programming languages and version control.",
+        "careerTags": [
+          "software_engineer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Spreadsheets, SQL, or statistical tools.",
+        "careerTags": [
+          "data_analyst",
+          "business_analyst"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Design and prototyping software.",
+        "careerTags": [
+          "uiux_designer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Project planning and task-tracking tools.",
+        "careerTags": [
+          "project_manager"
+        ],
+        "weight": 5
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Skills",
+    "question": "Which skill would you feel comfortable demonstrating in a practical assessment?",
+    "options": [
+      {
+        "text": "Testing an application and reporting defects.",
+        "careerTags": [
+          "qa_engineer",
+          "software_engineer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Explaining patterns found in data.",
+        "careerTags": [
+          "data_analyst",
+          "data_scientist"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Presenting a marketing campaign concept.",
+        "careerTags": [
+          "digital_marketer"
+        ],
+        "weight": 5
+      },
+      {
+        "text": "Identifying common security risks in a system.",
+        "careerTags": [
+          "cybersecurity_analyst",
+          "cloud_engineer"
+        ],
+        "weight": 5
+      }
+    ]
+  }
+]
